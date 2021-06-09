@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <style>
+            body{
+                background: #ffbd9b;
+            }
+            h1 {
+                font-family: "Roboto", sans-serif;
+                text-align: center;
+            }
+            input {
+                font-family: "Roboto", sans-serif;
+                font-size: 40px;
+                display: flex;
+                justify-content: center;
+                margin: auto;
+                padding: 0.5rem 1.5rem;
+                border: none;
+                box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+                border-radius: 5px;
+                font-weight: 300;
+                color: white;
+                outline: none;
+                transform: scale(0.98);
+                transition: all 0.2s;
+                background: #bab86c;
+            }
+            input:hover,
+            input:focus {
+                transform: scale(1);
+                font-weight: 500;
+                box-shadow: 1px 1px 1px rgba(100, 100, 100, 0.5);
+            }
+            .container {
+                box-shadow: 2.5px 2.5px 2.5px 2.5px rgba(0, 0, 0, 0.2);
+                text-shadow: 1px 1px white;
+                padding: 3rem;
+                padding-top: 2rem;
+                text-shadow: 0 1px #00000010;
+                width: 60%;
+                margin: 5rem auto;
+                margin-top: 1rem;
+                display: flex;
+                flex-direction: column;
+                background: #ffd8cc;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container" class="container">
+            <h1>Which philosopher are you? Find out by taking this Quiz!</h1>
+            <h1>“Philosophy is like choosing food at a buffet, knowing yourself with what you consume in your mind and body” - Jethro Ramel</h1>
+        </div>
+        <form action="personality-quiz.html">
+            <input type="submit" value="Start Quiz" />
+        </form>
+    </body>
+</html>
